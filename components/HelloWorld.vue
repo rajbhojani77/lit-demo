@@ -1,13 +1,11 @@
 <template>
   <div>
     <loading-blocker :loading="loading"></loading-blocker>
+    <todo-element></todo-element>
     <h1>Test</h1>
     <button @click="block">Click To Turn On Blocker This Cannot Be Clicked When Blocker Is Up</button>
   </div>
 </template>
-<script type="module">
-import {loading-blocker} from '@/loading-blocker.js';
-</script>
 
 <script>
 
